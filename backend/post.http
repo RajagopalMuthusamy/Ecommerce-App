@@ -1,0 +1,46 @@
+
+POST http://localhost:8000/api/v1/order
+Content-Type: application/json
+
+[
+    {
+        "product":{ "_id" : "6823480f908a0e0f58e80821",
+                    "name" : "OPPO F21s Pro 5G",
+                    "price" : 245.67,
+                    "description" : "OPPO F21s Pro 5G ",
+                    "ratings" : "4.5",
+                    "images" : [
+                                {
+                                "_id" : "6823480f908a0e0f58e80822",
+                                "image" : "/images/products/1.jpg"
+                                },
+                                {
+                                "_id" : "6823480f908a0e0f58e80823",
+                                "image" : "/images/products/2.jpg"
+                                }
+                            ],
+                    "category" : "Mobile Phones",
+                    "seller" : "Amazon",
+                    "stock" : "5",
+                    "__v" : "0"
+                    },
+        "qty":2
+    },
+    {
+        "product":{ "_id" :  "68234970b9e9691388d9c08e",
+                    "name" : "ASUS VivoBook 15 Laptop",
+                    "price" : 767.32000000000005,
+                    "description" : "ASUS VivoBook 15 15.6-inch ",
+                    "ratings" : 5,
+                    "images" : [
+                                {
+                                "image" : "/images/products/7.jpg"
+                                 }
+                                 ],
+                    "category" : "Laptops",
+                    "seller" : "Ebay",
+                    "stock" : 9
+                    },
+        "qty":1
+    }
+]
